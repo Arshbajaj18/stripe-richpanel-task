@@ -1,0 +1,89 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(31, 77, 144);
+    
+}
+ .active-plan-div{
+    background-color: white;
+    height: 20%;
+    margin: auto;
+    padding: 2%;
+    margin-top: 5%;
+    width: fit-content;
+    vertical-align: middle;
+    border-radius:5%;
+ }
+
+.current-plan-details {
+margin: 0 auto;
+padding: 3%;
+
+width: 500px;
+}
+.current-plan-details h3{
+    margin: auto 0;
+}
+.current-plan-details .plan-details {
+display: flex;
+flex-direction: column;
+}
+
+.plan-name{
+    margin-bottom: 0%;
+    
+    font-size: 70%;
+}
+.plan-price{
+    margin: 0% 0%;
+}
+.plan-devices{
+    margin-top: 1%;
+    color: grey;
+    font-size: 60%;
+
+}
+
+.plan-details button{
+    padding: 1% ;
+    /* margin: 3% 0p,ff1; */
+    margin: 5% 0%;
+    margin-left: 0;
+    height: fit-content;
+    width: 18%;
+    border: 1px solid;
+    border-radius: 8%;
+    font-size: 70%;
+    border-color: #0d0083;
+    color: #0d0083;
+    background-color: aliceblue;
+}
+.plan-renew{
+    width: 90%;
+    background-color: rgb(244,244,246);
+    font-size: 80%;
+}
+.currplan-heading{
+    display: flex;
+    flex-direction: row;
+}
+.currplan-heading div.active{
+    font-weight: 300;
+    color: #0d0083;
+    padding: 0.5%;
+    font-size: 80%;
+    border-radius: 9%;
+    /* border: 1px solid #0d0083; */
+    margin:auto;
+    background-color: skyblue;
+    width: fit-content;
+    margin-left: 3%;
+
+}
+.currplan-heading div.cancel{
+    padding: 0 3%;
+}
+/* .plan-details p{
+    width: fit-content;
+} */

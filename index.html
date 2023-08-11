@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richpanel-login-signup</title>
+    <link rel="stylesheet" href="/login-signup.css" />
+    
+    
+</head>
+<body>
+    <div class="login-signup-box">
+        <form class='signin-form 'action="#" method="post">
+            <div class="create-account">
+              <h3>Login to your account</h3>
+            </div>
+            <div class="container">
+            
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"> Password </label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+                
+                <button type="submit"><a href="/activeplan.html" style="color:White">Login</a></button></a>
+
+                <label class="switch-acc">
+                    <span>
+                        New to MyApp? <a href="#">Sign Up</a>
+                    </span>
+                </label>
+              
+            </div>
+        </form>
+        <form class='signup-form hidden-form'action="#" method="post">
+            <div class="create-account">
+              <h3>Create Account</h3>
+            </div>
+            <div class="container">
+                <label for="uname">Name</label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+            
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"> Password </label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+                
+                <button type="submit"><a href="/select-plan.html" style="color:White">Sign Up</a></button>
+
+                <label class="switch-acc">
+                    <span>
+                        Already have an account? <a class ="login-btn" href="#">Login</a>
+                    </span>
+                </label>
+              
+            </div>
+        </form>
+          <!---------------------------------------- aa ---------------------------------------------->
+
+    </div>
+    
+</body>
+<script src="/form.js"></script>
+</html>

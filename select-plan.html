@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/payment.css" />
+    
+    <link rel="stylesheet" href="/select-plans.css" />
+    <title>Richpanel-select-plan</title>
+</head>
+<body>
+    <div class="plan-buy-box">
+        <div class="choose-plans">
+            <div class="Choose-plans-head">
+                <h2 class="plan">Choose the right plan for you</h2>
+            </div>
+
+            <table>
+                
+                <thead>
+                    <tr>
+                        <th>
+                            <div class="btn-container">
+                                <label class="switch btn-color-mode-switch">
+                                    <input type="checkbox" name="color_mode" id="color_mode" value="1">
+                                    <label for="color_mode" data-on="Yearly" data-off="Monthly" class="btn-color-mode-switch-inner"></label>
+                                </label>
+                            </div>
+                        </th>
+                        <th class="mobile-head">
+                            <h2 >Mobile</h2>
+                        </th>
+                        <th class="basic-head">                           
+                            <h2>Basic</h2>
+                        </th>
+                        <th class="standard-head">
+                            <h2>Standard</h2>
+                        </th>
+                        <th class="premium-head">
+                            <h2>Premium</h2>
+                        </th>
+                    </tr>
+                </thead>
+        
+                
+        
+                <tbody>
+                    <tr class="pricing-my">
+                        <th >Monthly price</th>
+                        <td class="mobile-data mobile-price">₹ 100</td>
+                        <td class="basic-data basic-price" >₹ 200</td>
+                        <td class="standard-data standard-price">₹ 500</td>
+                        <td class="premium-data premium-price">₹ 700</td>
+                    </tr>
+                    <tr>
+                        <th>Videoquality</th>
+                        <td class="mobile-data ">Good</td>
+                        <td class="basic-data ">Good</td>
+                        <td class="standard-data ">Better</td>
+                        <td class="premium-data ">Best</td>
+                    </tr>
+                    <tr>
+                        <th>Resolution</th>
+                        <td class="mobile-data">480p</td>
+                        <td class="basic-data">720p</td>
+                        <td class="standard-data">1080p</td>
+                        <td class="premium-data">4K+HDR</td>
+                    </tr>
+                    <tr>
+                        <th>Devices you can use to watch </th>
+                        <td class="mobile-data"><span>Phone</span><br><span>Tablet</span></td>
+                        <td class="basic-data"><span>Phone</span><br><span>Tablet</span><br><span>Computer</span><br><span>TV</span></td>
+                        <td class="standard-data"><span>Phone</span><br><span>Tablet</span><br><span>Computer</span><br><span>TV</span></td>
+                        <td class="premium-data"><span>Phone</span><br><span>Tablet</span><br><span>Computer</span><br><span>TV</span></td>
+                    </tr>
+                    
+                    
+                </tbody>
+        
+            </table>
+            <div>
+                <button class="next-button">
+                    Next
+                </button>
+            </div>
+        </div>
+        <!-- --------------------------------------------------------------------------------------->
+        <div class="payment-gateway hidden-div">
+            
+            <div class="card-details">
+                <h1>Complete Payment</h1>
+                <p>Enter your credit or debit card details below</p>
+                <div class="card-num">
+                    <input class=" cardnumber"type="text" placeholder="💳 Card number" />
+                    <input class="mmyy" type="text" placeholder="MM/YY" />
+                    <input class="cvv" type="text" placeholder="CVV">
+                </div>
+                <button type="submit"><a href="/stripepay.html">Confirm Payment</a></button>
+            </div>
+            
+            <div class="order-summary">
+                <h1>Order Summary</h1>
+                <table>
+                    <tr>
+                        <th> Plan name</th>
+                        <td ><span class="osum-plan">Basic</span></td>
+                    </tr>
+                    <tr>
+                        <th>Billing cycle</th>
+                        <td ><span class="osum-cycle">Monthly</span></td>
+                    </tr>
+                    <tr>
+                        <th> Plan price</th>
+                        <td><span class="osum-price">₹2200/mo</span></td>
+                    </tr>
+                </table>
+                
+            </div>
+            
+
+        </div>
+        
+    </div>
+</body>
+<script src="/select-plans.js"></script>
+</html>

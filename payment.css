@@ -1,0 +1,95 @@
+
+body{
+    background-color: #0d0083;
+}
+
+.payment-gateway{  
+    display: flex;
+}
+
+.card-details{
+    padding: 3%;
+    width: 50%;
+    flex-direction: column;
+    background-color: white;
+}
+.card-details h1{
+    margin-bottom: 1%;
+}
+.card-num{
+    display: flex;
+    flex-direction: row;
+    border: solid 2px;
+    width: 90%;
+    height: 12%;
+}
+.card-num input{
+    border: none;
+}
+.card-num{
+    margin-top: 10%;
+}
+  
+/* .card-details {
+    margin-bottom: 20px;
+} */
+  
+.payment-gateway input {
+    width: 100%;
+    padding: 10px;
+    /* border: 1px solid #ccc; */
+}
+  
+.payment-gateway button {
+    background-color: #0d0083;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10%;
+    margin-bottom: 0%;
+    width: 50%;
+    height: 15%;
+}
+.card-num input.cardnumber{
+    width: 80%;
+}
+.card-num input.mmyy{
+    width: 25%;
+}
+.card-num input.cvv{
+    width: 20%;
+}
+.order-summary {
+    padding: 3%;
+    width: 50%;
+    /* background-color: #fff; */
+    background-color: rgb(244,244,246);
+    /* margin-top: 20px; */
+}
+.order-summary table tr{
+    
+    border-bottom: 2px solid #ccc;
+    border-top: none;
+}
+.order-summary table tr td{
+    padding-bottom: 0;
+    background-color:  rgb(244,244,246);
+}
+.order-summary table tr th{
+    padding-bottom: 0;
+    background-color: rgb(244,244,246);
+}
+  
+.order-summary h2 {
+    text-align: center;
+    font-size: 18px;
+}
+  
+.order-summary p {
+    margin-bottom: 10px;
+}
+.card-details > input {
+    display: inline-block;
+    margin-right: 10px;
+}
